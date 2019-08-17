@@ -1,0 +1,6 @@
+main: net.centilehcf.core.Core
+name: Core
+author: CentileHCF Development Team
+version: ${git.commit.id.abbrev}-${git.branch}
+description: Plugin used to add all core features to a bukkit server.
+depend: [ProtocolLib, Vault]
